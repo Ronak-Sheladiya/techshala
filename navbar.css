@@ -1,0 +1,156 @@
+
+
+/* green :- #00D269 */
+/* blue :- #29334F */
+/* white */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+/* font-family: 'Share Tech', sans-serif; */
+
+
+
+.navbar{
+    background-color: white;
+}
+
+.nav_detail{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.nav_detail a{
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px;
+    color: #00D269;
+    font-family: 'Share Tech', sans-serif;
+}
+
+
+.left{
+    margin-left: 15vh;
+    text-decoration: none;
+}
+
+.left button {
+    font-size: 23px;
+    color: #00D269;
+    font-family: 'Share Tech', sans-serif;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    posi
+  }
+  
+  .left button:focus,
+  .left button:hover {
+    color: #29334F;
+  }
+  
+  .left button:focus:after,
+  .left button:hover:after {
+    width: 100%;
+    left: 0%;
+    background: #29334F;
+  }
+  
+  .left button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #00D269;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+.right{
+    margin-right: 15vh;
+    
+}
+
+.nav_detail a svg{
+    margin-top: 2px;
+    height: 21px;
+    width: 21px;
+    margin: 0px;
+    padding: 0px;
+    color: #00D269;
+}
+
+.login{
+    display: flex;
+}
+
+.login button{
+    margin: 0px 10px;
+}
+
+.cssbuttons-io-button {
+    background: #00D269;
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #29334F;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #00D269;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #00D269;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+    color: #29334F;
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
